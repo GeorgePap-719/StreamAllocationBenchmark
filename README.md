@@ -10,19 +10,6 @@ Intel® Core™ i7-4770K × 8
 java 11.0.15-trava
 ````
 
-````text
-Benchmark                                        (n)  Mode  Cnt      Score        Error  Units
-AllocationBenchmark.stdlibAllocationBenchmark     10    ss    8  50110.250 ± 260297.732  ns/op
-AllocationBenchmark.stdlibAllocationBenchmark    100    ss    8  82276.625 ± 430459.192  ns/op
-AllocationBenchmark.stdlibAllocationBenchmark   1000    ss    8  42425.375 ± 202908.258  ns/op
-AllocationBenchmark.stdlibAllocationBenchmark  10000    ss    8  59598.625 ± 301949.663  ns/op
-
-AllocationBenchmark.streamAllocationBenchmark     10    ss    8  25707.250 ±  25753.444  ns/op
-AllocationBenchmark.streamAllocationBenchmark    100    ss    8  25976.875 ±  22759.163  ns/op
-AllocationBenchmark.streamAllocationBenchmark   1000    ss    8  33520.750 ±  23673.220  ns/op
-AllocationBenchmark.streamAllocationBenchmark  10000    ss    8  30468.875 ±  36984.278  ns/op
-````
-
 ### One step
 
 ````text
