@@ -1,6 +1,8 @@
-# Stream allocation benchmark 
+# Stream benchmark 
 
 Benchmarking the stream API vs simple transformations. 
+
+Another interesting metric would be to count the actual allocations.
 
 ## Results
 
