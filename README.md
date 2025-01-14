@@ -1,8 +1,10 @@
 # Stream allocation benchmark 
 
+Benchmarking the stream API vs simple transformations. 
+
 ## Results
 
- Environment
+Environment
 
 ````text
 Fedora Linux 39 (Workstation Edition)
