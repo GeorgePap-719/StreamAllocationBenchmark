@@ -1,5 +1,15 @@
 # Stream allocation benchmark 
 
+## Results
+
+ Environment
+
+````text
+Fedora Linux 39 (Workstation Edition)
+Intel® Core™ i7-4770K × 8
+java 11.0.15-trava
+````
+
 ````text
 Benchmark                                        (n)  Mode  Cnt      Score        Error  Units
 AllocationBenchmark.stdlibAllocationBenchmark     10    ss    8  50110.250 ± 260297.732  ns/op
@@ -11,19 +21,6 @@ AllocationBenchmark.streamAllocationBenchmark     10    ss    8  25707.250 ±  2
 AllocationBenchmark.streamAllocationBenchmark    100    ss    8  25976.875 ±  22759.163  ns/op
 AllocationBenchmark.streamAllocationBenchmark   1000    ss    8  33520.750 ±  23673.220  ns/op
 AllocationBenchmark.streamAllocationBenchmark  10000    ss    8  30468.875 ±  36984.278  ns/op
-````
-
-````text
-Benchmark                                        (n)  Mode  Cnt   Score   Error  Units
-AllocationBenchmark.stdlibAllocationBenchmark     10  avgt    8   5.447 ± 1.187  ns/op
-AllocationBenchmark.stdlibAllocationBenchmark    100  avgt    8   5.846 ± 0.807  ns/op
-AllocationBenchmark.stdlibAllocationBenchmark   1000  avgt    8   5.335 ± 0.663  ns/op
-AllocationBenchmark.stdlibAllocationBenchmark  10000  avgt    8   5.652 ± 0.402  ns/op
-
-AllocationBenchmark.streamAllocationBenchmark     10  avgt    8  63.486 ± 9.420  ns/op
-AllocationBenchmark.streamAllocationBenchmark    100  avgt    8  47.323 ± 9.517  ns/op
-AllocationBenchmark.streamAllocationBenchmark   1000  avgt    8  46.594 ± 6.458  ns/op
-AllocationBenchmark.streamAllocationBenchmark  10000  avgt    8  54.272 ± 8.492  ns/op
 ````
 
 ## All steps
