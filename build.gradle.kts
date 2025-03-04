@@ -30,6 +30,8 @@ kotlin {
     jvmToolchain(17)
 }
 
+
+// Run ./gradlew benchmark -PjmhArgs="-prof gc" to count memory
 benchmark {
     targets {
         register("main") {
