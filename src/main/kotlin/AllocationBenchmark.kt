@@ -18,7 +18,7 @@ import kotlin.random.Random
  * // check this later: https://github.com/openjdk/jmh/blob/master/jmh-samples/src/main/java/org/openjdk/jmh/samples/JMHSample_35_Profilers.java
  */
 @Fork(1)
-@Warmup(iterations = 1)
+@Warmup(iterations = 3)
 @Measurement(iterations = 8, time = 1, timeUnit = TimeUnit.SECONDS)
 @State(Scope.Benchmark)
 class AllocationBenchmark {
@@ -32,14 +32,14 @@ class AllocationBenchmark {
         "100000",
         "1000000",
     )
-    var size: Int = 0
+    var n: Int = 0
 
     private val random = Random
 
     @Setup
     fun setup() {
         dataSet = buildList {
-            for (number in 1..size) add(number)
+            for (number in 1..n) add(number)
         }
     }
 
