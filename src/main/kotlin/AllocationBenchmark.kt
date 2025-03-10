@@ -43,11 +43,6 @@ class AllocationBenchmark {
         }
     }
 
-    @TearDown(Level.Iteration)
-    fun teardown() {
-        dataSet = emptyList()
-    }
-
     // On each run use the same random `Int` to make computations.
     // An effort to remove the `random factor`.
     val randomInt = random.nextInt(100_000)
