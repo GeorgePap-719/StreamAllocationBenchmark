@@ -9,7 +9,7 @@ Environment
 
 ````text
 Macbook Air 
-m3
+m3 8-core
 java Corretto-17.0.14.7.1
 ````
 
